@@ -7,6 +7,10 @@
  */
 
 // Your code:
+const sub = function (num1, num2) {
+    return num1-num2;
+}
+sub(5,7)
 
 //* Begin of tests
 const assert = require('assert');

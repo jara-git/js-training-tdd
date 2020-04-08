@@ -10,6 +10,10 @@
  */
 
 // Your code:
+const max = function (num1, num2){
+    return num1<num2 ? num2 : num1;
+}
+max (3,2)
 
 //* Begin of tests
 const assert = require('assert');

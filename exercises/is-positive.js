@@ -8,6 +8,9 @@
  */
 
 // Your code:
+function isPositive(number) {
+    return number === "0" || ((number | 0) > 0 && number % 1 === 0);
+}
 
 //* Begin of tests
 const assert = require('assert');

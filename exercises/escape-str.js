@@ -8,6 +8,15 @@
  */
 
 // Your code:
+let escapeStr = ["/",
+"//",
+"`",
+`"`,
+"'",
+'\\',
+"doorSeven","It's all right"];
+escapeStr = escapeStr.toString();
+    
 
 //* Begin of tests
 const assert = require('assert');

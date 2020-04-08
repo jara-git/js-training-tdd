@@ -7,6 +7,17 @@
  */
 
 // Your code:
+function total(input){
+    let sum =  0;
+            for(let i=0; i<input.length; i++)
+              {                  
+                  sum += (input[i]);
+               }
+             return sum;
+            }
+
+ 
+ total([1,0, 2, 3, 0])
 
 //* Begin of tests
 const assert = require('assert');

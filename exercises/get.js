@@ -1,8 +1,8 @@
 'use strict';
 
 /*
- * Create a `get` function that takes a key and return the corresponding value
- * in the sourceObject
+ * Create a `get` function that takes a key and returns the corresponding value
+ * to the sourceObject
  *
  * @notions Functions, Data-Structures, Get
  */
@@ -16,6 +16,11 @@ const sourceObject = {
 };
 
 // Your code:
+
+ 
+function get (key){
+  return sourceObject[key]
+}
 
 //* Begin of tests
 const assert = require('assert');
