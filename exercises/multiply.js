@@ -12,11 +12,12 @@
 
 function multiply (a, b) {
     let total = 0
-    for(let i = 0; i < a; i++)
-        total += b;
-       return total;
-        
-}
+    for(let i = 0; i < Math.abs(a); i++)
+      total += b;
+      return total;
+  
+       
+};  
 
   
 
