@@ -10,10 +10,10 @@
 
 // Your code:
 
-function multiply (a, b) {
+function multiply (operandLeft, operandRight) {
     let total = 0
-    for(let i = 0; i < Math.abs(a); i++)
-      total += b;
+    for(let i = 0; i < Math.abs(operandLeft); i++)
+      total += operandRight;
       return total;
   
        

@@ -11,6 +11,10 @@
 
 // Your code:
 
+function multiply(operandLeft, operandRight) {
+    return operandLeft > 0 ? multiply(operandLeft-1,operandRight) + operandRight : 0;
+  }
+
 //* Begin of tests
 const assert = require('assert');
 
