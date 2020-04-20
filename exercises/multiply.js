@@ -10,15 +10,24 @@
 
 // Your code:
 
-function multiply (operandLeft, operandRight) {
-    let total = 0
-    for(let i = 0; i < Math.abs(operandLeft); i++)
-      total += operandRight;
-      return total;
-  
-       
-};  
 
+function multiply(num1, num2) {
+  let total = 0;
+  let newNum1 = Math.abs(num1);
+  let newNum2 = Math.abs(num2);
+  if ((num1 == 0) || (num2 == 0)) { return 0 }
+  for (let i = 0; i < newNum2; i++) {
+    total += newNum1
+  }
+  if ((num1 < 0) && (num2 < 0)) {
+    return total
+  }
+  else if ((num1 < 0) || (num2 < 0)) {
+    return -total
+  } else {
+    return total
+  }
+}
   
 
 //* Begin of tests
